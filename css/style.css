@@ -4,6 +4,7 @@ TODO::
 - on mobile, scroll left-right
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 :root {
   --card-height: 22rem;
@@ -43,8 +44,20 @@ nav a {
   flex-basis: 39%;
 }
 
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.7rem;
+  line-height: 1.3em;
+}
+
+article {
+  margin-top: 30px;
+}
+
 .titlecontainer {
-  font-size: 2rem;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.7rem;
+  line-height: 1.3em;
   padding-bottom: 2rem;
   display: flex;
 }
@@ -54,6 +67,12 @@ nav a {
 
 .titlecontainer > img {
   height: 5rem;
+}
+
+.link-about {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.7rem;
+  line-height: 1.3em;
 }
 
 .grid-container {
